@@ -1,0 +1,7 @@
+{
+  "$schema": "https://api.stryker-mutator.io/json-schema/stryker-config.json",
+  "mutate": ["src/**/*.ts", "!src/**/*.spec.ts"],
+  "testRunner": "jest",
+  "reporters": ["progress", "clear-text", "html"],
+  "concurrency": 4
+}
