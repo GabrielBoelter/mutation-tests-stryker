@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "coverage": "jest --config jest.config.js --coverage",
     "stryker": "stryker run"
   },
   "devDependencies": {
